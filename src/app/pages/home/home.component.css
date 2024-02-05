@@ -1,0 +1,40 @@
+h3{
+    background-color: #bcbcbc;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+.cont{
+    background-color: white;
+    height: 600px;
+    overflow: auto;
+}
+
+input{
+    width: 100%;
+    border-radius: 0px;
+}
+
+
+::ng-deep .p-dropdown{
+    width: 250px;
+    border-radius: 0px;
+    margin-left: 30px;
+}
+
+
+::ng-deep .p-dropdown-items{
+    padding-left: 0px; 
+}
+
+.dsan{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.ndioasd{
+    display: flex;
+    justify-content: center;
+   
+}

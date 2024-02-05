@@ -1,0 +1,26 @@
+::ng-deep .p-card{
+    border-radius: 0px;
+    display: block;
+    width: 200px;
+    border: 1px solid #bcbcbc;
+    height: 240px;
+    cursor: pointer;
+}
+
+
+
+
+.djasda{
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+}
+
+.djasda2{
+    font-size: 13px;
+    line-height: 1;
+}
+
+.djasda3{
+    font-weight: 700;
+}

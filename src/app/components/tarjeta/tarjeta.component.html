@@ -1,0 +1,65 @@
+<p-card (click)="showDialog()">
+    <ng-template pTemplate="header">
+        <img alt="Card" class="sdsad" [src]="data.image" />
+    </ng-template>
+    <p class="djasda">  {{data.name}} </p>
+    <p class="djasda2">  <span class="djasda3">Estado:</span> {{data.status}}</p>
+    <p class="djasda2">  <span class="djasda3">Origen:</span>  {{data.origin.name}}</p>
+</p-card>
+
+
+<p-dialog header="Rick and Morty" [(visible)]="visible" [modal]="true" [style]="{ width: '50vw' }" [draggable]="false" [resizable]="false">
+    
+
+    <div class=" mt-3">
+        
+        <div >
+            
+            <p class="dasnidosa">{{ data.name }}</p>
+
+            <img [src]="data.image" class="daosdma">
+
+            <div>
+                <p class="djasda2">  <span class="djasda3">Estatus:</span> {{data.status}}</p>
+                <p class="djasda2">  <span class="djasda3">Gender:</span>  {{data.gender}}</p>
+                <p class="djasda2">  <span class="djasda3">Origin:</span>  {{data.origin.name}}</p>
+                <p class="djasda2">  <span class="djasda3">Specie:</span>  {{data.species}}</p>
+            </div>
+
+            <p class="dpasdka">Episodios donde apareció</p>
+
+            <div class="row dpasdka">
+                <div class="col-4">
+                    <div class="dasndosa">
+                        Episodio 1
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="dasndosa">
+                        Episodio 2
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="dasndosa">
+                        Episodio 3
+                    </div>
+                </div>
+            </div>
+
+
+            <p class="dpasdka mt-3">Personajes interesantes</p>
+
+            <div class="row">
+
+                <div class="col-4"> <app-sub-tarjetas [data]="data"></app-sub-tarjetas> </div>
+                <div class="col-4"> <app-sub-tarjetas [data]="data"></app-sub-tarjetas> </div>
+                <div class="col-4"> <app-sub-tarjetas [data]="data"></app-sub-tarjetas> </div>
+            </div>
+           
+    
+        </div>
+    </div>
+
+
+</p-dialog>

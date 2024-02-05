@@ -1,0 +1,94 @@
+.djasda{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.djasda2{
+    font-size: 13px;
+    line-height: 1;
+}
+
+.djasda3{
+    font-weight: 700;
+}
+
+::ng-deep .p-card{
+    border-radius: 0px;
+    display: block;
+    width: 200px;
+    border: 1px solid #bcbcbc;
+    height: 280px !important;
+    cursor: pointer;
+}
+
+
+::ng-deep .p-card-header{
+    border-bottom: 1px solid #bcbcbc;
+}
+
+
+::ng-deep .p-card-body{
+    margin-top: -20px;
+    padding: 10px;
+}
+
+.sdsad{
+    height: 150px;
+}
+
+p{
+    color: black;
+}
+
+
+
+
+
+::ng-deep .p-dialog-header{
+    border-radius: 0px;
+    background: #bcbcbc;
+    padding: 10px;
+}
+
+::ng-deep .p-dialog-title{
+    font-size: 15px !important;
+}
+
+
+::ng-deep .p-dialog-content:last-of-type {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    overflow: hidden;
+}
+
+
+::ng-deep .p-dialog-content{
+    padding: 10px;
+}
+
+
+.dasnidosa{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.daosdma{
+    float: left;
+    margin-right: 15px;
+    width: 100px;
+}
+
+
+.dpasdka{
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+}
+
+
+.dasndosa{
+    border: 1px solid #bcbcbc;
+    padding: 10px;
+
+}
